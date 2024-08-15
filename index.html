@@ -26,10 +26,10 @@
 
     <title>Prince Mireku</title>
 </head>
-<body class="container w-4/5 md:w-1/2 mt-12 text-black/90">
+<body class="container w-4/5 md:w-1/2 mt-12 text-black/90 bg-cyan-500/[.03]">
     <!-- Header -->
-    <section class="w-full flex">
-        <img class="rounded mr-6 w-[40%] md:w-[25%]" src="assets/images/profile-pic.png" alt="profile_pic">
+    <section class="w-full flex flex-col sm:flex-row">
+        <img class="rounded mr-6 w-[100%] sm:w-[40%] md:w-[25%]" src="assets/images/profile-pic.png" alt="profile_pic">
         <div class="py-4 text-sm">
             <p class="text-[1.8rem] md:text-[2.5rem] leading-tight font-medium sm:mb-5">
                 Prince Mireku
@@ -51,7 +51,7 @@
             </div>
         </div>
     </section>
-    <hr class="my-10">
+    <hr class="my-5 sm:my-10">
 
     <!-- About -->
     <section class="text-[15px] leading-[1.6] my-4">
@@ -63,7 +63,7 @@
             I am currently a research assistant at 
             <a class="font-semibold text-blue-400 underline" href="https://cktutas.edu.gh/" target="_blank">C.K.T UTAS,</a> working under the guidance of 
             <a class="font-semibold text-blue-400 underline" href="https://scholar.google.com/citations?user=UD8ifkwAAAAJ&hl=en" target="_blank">Prof. Mohammed I. Daabo</a>. 
-            We explore efficient ways to synergistically combine foundational <strong>Machine Learning</strong> and <strong>Natural Language Processing</strong> 
+            We explore efficient ways to synergistically combine foundational <strong>Computer Vision</strong> and <strong>Natural Language Processing</strong> 
             models, targeting core recipes to offer novel approaches for training, evaluation, and inference in resource-constrained settings.
             <br><br>
 
@@ -72,8 +72,8 @@
                 Mr. Strato Bayitaa
             </a>, 
             a Google PhD Scholar at Oregon State University. Our research focuses on <strong>multimodal learning</strong> approaches and their applications in healthcare. 
-            Specifically, we experiment with vision and language alignment techniques to address challenges in the <strong>vision-language space</strong>, such as visual 
-            object hallucinations in multimodal models. Our aim is to develop reliable and interpretable models for robust medical tasks.
+            Specifically, we experiment with vision and language alignment techniques to address challenges in the <strong>vision-language space</strong>. 
+            The ultimate goal is to develop reliable and interpretable models for robust medical tasks.
             <br><br>
 
             <!-- INTERESTS -->
@@ -98,7 +98,7 @@
     
     <!-- QUick Links -->
     <div class="quick-links flex space-x-12 p-3 border-t border-b border-gray-300/80 my-8 overflow-x-auto">
-        <a href="#">Pub</a>
+        <a href="#">Research</a>
         <a href="#news">News</a>
         <a href="./projects.html">Projects</a>
         <a href="assets/files/Prince_Mireku_CV.pdf" target="_blank">
@@ -109,24 +109,45 @@
     <!-- News -->
     <section id="news">
         <h5 class="text-2xl font-light mb-5">News</h5>
-        <div class="flex my-4">
-            <div id="dates" class="pr-8 font-bold space-y-1">
-                <p class="text-red-500/80 min-w-[70px]">Jun 2024</p>
-                <p class="text-red-500/80 min-w-[70px]">Apr 2024</p>
-                <p class="min-w-[70px]">Nov 2023</p>
-                <p class="min-w-[70px]">Feb 2023</p>
-            </div>
-            <div id="title" class="space-y-1">
-                <p>Joined 
+        <table class="border-separate">
+            <tr>
+                <td class="md:min-w-[80px] font-bold text-red-500/80 align-text-top">Jul 2024</td>
+                <td>
+                    I'll be presenting our work on Multimodal Multilingual African Dataset at 
+                    <a href="https://mlcollective.org/events/research-jam-22/" class="text-blue-400">ML Collective's 22nd Research Jam.</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="font-bold">Jul 2024</td>
+                <td>
+                    Joined 
+                    <a href="https://computervision0.github.io/" class="text-blue-400">SMART Lab</a> @ 
+                    <a href="https://www.ndsu.edu/" class="text-blue-400">NDSU</a> 
+                    as a Research Intern.
+                </td>
+            </tr>
+            <tr>
+                <td>Jun 2024</td>
+                <td>
+                    Joined 
                     <a href="https://x.com/black_in_ai" class="text-blue-400">
                     @Black in AI
                     </a> Community.
-                </p>
-                <p>Reviewing applications for Deep Learning Indaba 2024.</p>
-                <p>Received the Dean's Award for Best Graduating Student from the Department of CS.</p>
-                <p>Started RA @ C.K.T University of Technology and Applied Sciences.</p>
-            </div>
-        </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Apr 2024</td>
+                <td>Reviewing applications for Deep Learning Indaba 2024.</td>
+            </tr>
+            <tr>
+                <td>Feb 2023</td>
+                <td>
+                    Started RA @ C.K.T University of Technology and Applied Sciences.
+                </td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+        </table>
     </section>
     <hr class="my-10">
 
@@ -216,7 +237,7 @@
 
     <!-- Last Update -->
     <section class="mt-12 md:mt-24 text-center">
-        Last updated: June 2024
+        Last updated: July 2024
     </section>
 
     <!-- Footer -->
